@@ -1,10 +1,12 @@
-#topic-title .select-kit.combo-box.category-chooser .select-kit-body {
+/* Categories */
+
+#topic-title .select-kit .category-chooser .select-kit-body,
+div.composer-fields .select-kit .category-chooser .select-kit-body {
     flex-wrap: wrap !important;
 }
 
 #topic-title .category-input .select-kit .select-kit-body,
-.category-input .select-kit .select-kit-body {
-
+div.composer-fields .category-input .select-kit .select-kit-body {
     max-width: 85% !important;
     padding: 5px 15px 15px !important;
     border: none !important;
@@ -13,7 +15,7 @@
 }
 
 #topic-title .select-kit .category-chooser .select-kit-row,
-.select-kit .category-chooser .select-kit-row {
+div.composer-fields .select-kit .category-chooser .select-kit-row {
     /* width: min-content !important; */
     flex-wrap: wrap !important;
     min-width: min-content !important;
@@ -21,7 +23,7 @@
 }
 
 #topic-title .category-input .select-kit .select-kit-collection,
-.category-input .select-kit .select-kit-collection {
+div.composer-fields .category-input .select-kit .select-kit-collection {
     display: flex !important;
     flex-wrap: wrap !important;
     flex-direction: column !important;
@@ -29,13 +31,14 @@
     overflow-y: auto !important;
 }
 
-.select-kit.combo-box.category-chooser .select-kit-row .category-desc {
+#topic-title .select-kit.combo-box.category-chooser .select-kit-row .category-desc,
+div.composer-fields .select-kit.combo-box.category-chooser .select-kit-row .category-desc {
     line-height: var(--line-height-medium) !important;
     font: small-caption !important;
 }
 
 
-
+/* Tags */
 
 #topic-title .edit-tags__wrapper .select-kit.is-expanded .select-kit-body,
 div.composer-fields .tags-input .select-kit.is-expanded .select-kit-body {
