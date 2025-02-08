@@ -1,7 +1,4 @@
-.select-kit.combo-box.category-chooser .select-kit-row .category-desc {
-    line-height: var(--line-height-medium);
-    font: small-caption;
-}
+
 
 #topic-title .category-input .select-kit.combo-box .select-kit-collection,
 .category-input .select-kit.combo-box .select-kit-collection {
@@ -33,6 +30,10 @@
     overflow-y: auto !important;
 }
 
+.select-kit.combo-box.category-chooser .select-kit-row .category-desc {
+    line-height: var(--line-height-medium);
+    font: small-caption;
+}
 
 
 
