@@ -2,6 +2,11 @@
     flex-wrap: wrap !important;
 }
 
+.select-kit.combo-box.category-chooser .select-kit-row {
+    width: min-content !important;
+    flex-wrap: wrap !important;
+}
+
 #topic-title .edit-tags__wrapper .select-kit.is-expanded .select-kit-body,
 div.composer-fields .tags-input .select-kit.is-expanded .select-kit-body {
     max-width: 85% !important;
