@@ -8,8 +8,10 @@
 }
 
 .select-kit.combo-box.category-chooser .select-kit-row {
-    width: min-content !important;
+    /* width: min-content !important; */
     flex-wrap: wrap !important;
+    min-width: min-content !important;
+    width: 150px !important;
 }
 
 #reply-control .category-input .category-chooser .select-kit-body,
