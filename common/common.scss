@@ -3,10 +3,12 @@
     font: small-caption;
 }
 
+#topic-title .category-input .select-kit.combo-box .select-kit-collection,
 .category-input .select-kit.combo-box .select-kit-collection {
     flex-wrap: wrap !important;
 }
 
+#topic-title .select-kit.combo-box.category-chooser .select-kit-row,
 .select-kit.combo-box.category-chooser .select-kit-row {
     /* width: min-content !important; */
     flex-wrap: wrap !important;
