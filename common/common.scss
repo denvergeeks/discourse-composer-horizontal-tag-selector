@@ -1,4 +1,9 @@
-
+.select-kit.combo-box.category-chooser .select-kit-row .category-desc {
+    flex: 1 1 auto;
+    font-size: var(--font-down-2);
+    line-height: var(--line-height-medium);
+    font: small-caption;
+}
 
 .category-input .select-kit.combo-box .select-kit-collection {
     flex-wrap: wrap !important;
