@@ -1,8 +1,15 @@
-
+#reply-control .category-input .category-chooser .select-kit-body {
+    flex-wrap: wrap !important;
+}
 
 #topic-title .category-input .select-kit.combo-box .select-kit-collection,
 .category-input .select-kit.combo-box .select-kit-collection {
-    flex-wrap: wrap !important;
+
+    max-width: 85% !important;
+    padding: 5px 15px 15px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important;
 }
 
 #topic-title .select-kit.combo-box.category-chooser .select-kit-row,
@@ -11,14 +18,6 @@
     flex-wrap: wrap !important;
     min-width: min-content !important;
     width: 150px !important;
-}
-
-#reply-control .category-input .category-chooser .select-kit-body {
-    max-width: 85% !important;
-    padding: 5px 15px 15px !important;
-    border: none !important;
-    border-radius: 4px !important;
-    box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important;
 }
 
 .category-input .select-kit.combo-box .select-kit-collection {
