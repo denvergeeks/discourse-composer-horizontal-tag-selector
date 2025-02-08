@@ -29,8 +29,8 @@
 }
 
 .select-kit.combo-box.category-chooser .select-kit-row .category-desc {
-    line-height: var(--line-height-medium);
-    font: small-caption;
+    line-height: var(--line-height-medium) !important;
+    font: small-caption !important;
 }
 
 
