@@ -8,7 +8,7 @@ div.composer-fields .tags-input .select-kit.is-expanded .select-kit-body {
     box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important;
 }
 
-#topic-title .edit-tags__wrapper .select-kit.is-expanded .select-kit-body,
+#topic-title .edit-tags__wrapper .select-kit .select-kit-collection,
 div.composer-fields .tags-input .select-kit .select-kit-collection {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -17,7 +17,7 @@ div.composer-fields .tags-input .select-kit .select-kit-collection {
     overflow-y: auto !important;
 }
 
-#topic-title .edit-tags__wrapper .select-kit.is-expanded .select-kit-body,
+#topic-title .edit-tags__wrapper .select-kit .select-kit-row,
 div.composer-fields .tags-input .select-kit .select-kit-row {
     padding: .1em .5em !important;
 }
