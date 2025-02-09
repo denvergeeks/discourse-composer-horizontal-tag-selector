@@ -1,13 +1,5 @@
 /* Categories */
 
-
-
-
-#topic-title .edit-category__wrapper .select-kit-body,
-.composer-fields .category-input .select-kit-body {
-    flex-wrap: wrap !important;
-}
-
 #topic-title .edit-category__wrapper .select-kit-body,
 .composer-fields .category-input .select-kit-body {
     max-width: 85% !important;
@@ -58,7 +50,7 @@
     box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important;
 }
 
-#topic-title .edit-tags__wrapper .select-kit .select-kit-collection,
+#topic-title .edit-tags__wrapper .select-kit-collection,
 .composer-fields .tags-input .select-kit-collection {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -67,12 +59,11 @@
     overflow-y: auto !important;
 }
 
-#topic-title .edit-tags__wrapper .select-kit .select-kit-row,
+#topic-title .edit-tags__wrapper .select-kit-row,
 .composer-fields .tags-input .select-kit-row {
     padding: .1em .5em !important;
 }
 
-.select-kit .select-kit-header,
-.select-kit.multi-select .multi-select-header .formatted-selection {
+.composer-fields .tags-input .formatted-selection {
     white-space: normal !important;
 }
