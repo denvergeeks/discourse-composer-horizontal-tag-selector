@@ -1,11 +1,14 @@
 /* Categories */
 
-#topic-title .select-kit .category-chooser .select-kit-body,
+
+
+
+#topic-title .edit-category__wrapper .select-kit-body,
 .composer-fields .category-input .select-kit-body {
     flex-wrap: wrap !important;
 }
 
-#topic-title .category-input .select-kit .select-kit-body,
+#topic-title .edit-category__wrapper .select-kit-body,
 .composer-fields .category-input .select-kit-body {
     max-width: 85% !important;
     padding: 5px 15px 15px !important;
@@ -14,15 +17,7 @@
     box-shadow: 0 1.36px 8.896px #c4b59d, 0 0 1px !important;
 }
 
-#topic-title .select-kit .category-chooser .select-kit-row,
-.composer-fields .category-input .select-kit-row {
-    /* width: min-content !important; */
-    flex-wrap: wrap !important;
-    min-width: min-content !important;
-    width: 150px !important;
-}
-
-#topic-title .category-input .select-kit .select-kit-collection,
+#topic-title .edit-category__wrapper .select-kit-collection,
 .composer-fields .category-input .select-kit-collection {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -31,7 +26,15 @@
     overflow-y: auto !important;
 }
 
-#topic-title .select-kit.combo-box.category-chooser .select-kit-row .category-desc,
+#topic-title .edit-category__wrapper .select-kit-row,
+.composer-fields .category-input .select-kit-row {
+    /* width: min-content !important; */
+    flex-wrap: wrap !important;
+    min-width: min-content !important;
+    width: 150px !important;
+}
+
+#topic-title .edit-category__wrapper .category-desc,
 .composer-fields .category-input .category-desc {
     line-height: var(--line-height-medium) !important;
     font: small-caption !important;
@@ -40,7 +43,13 @@
 
 /* Tags */
 
-#topic-title .select-kit-body,
+
+#topic-title .edit-tags__wrapper .select-kit-header--filter,
+.composer-fields .tags-input .select-kit-header--filter {
+    flex-wrap: wrap !important;
+}
+
+#topic-title .edit-tags__wrapper .select-kit-body,
 .composer-fields .tags-input .select-kit-body {
     max-width: 85% !important;
     padding: 5px 15px 15px !important;
@@ -61,11 +70,6 @@
 #topic-title .edit-tags__wrapper .select-kit .select-kit-row,
 .composer-fields .tags-input .select-kit-row {
     padding: .1em .5em !important;
-}
-
-#topic-title .edit-tags__wrapper .select-kit-header--filter,
-.composer-fields .tags-input .select-kit-header--filter {
-    flex-wrap: wrap !important;
 }
 
 .select-kit .select-kit-header,
