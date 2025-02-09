@@ -1,6 +1,7 @@
 /* Categories */
 
-#topic-title .edit-category__wrapper .select-kit.is-expanded .select-kit-filter.is-expanded {
+#topic-title .edit-category__wrapper .select-kit.is-expanded .select-kit-filter.is-expanded,
+.composer-fields .category-input .select-kit.is-expanded .select-kit-filter.is-expanded{
     background: var(--secondary) !important;
     border: 1px solid var(--primary-400) !important;
     border-radius: 4px !important;
