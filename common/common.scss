@@ -1,7 +1,7 @@
 /* Categories */
 
 #topic-title .edit-category__wrapper .select-kit.is-expanded .select-kit-filter.is-expanded,
-.composer-fields .category-input .select-kit.is-expanded .select-kit-filter.is-expanded{
+.composer-fields .category-input .select-kit.is-expanded .select-kit-filter.is-expanded {
     background: var(--secondary) !important;
     border: 1px solid var(--primary-400) !important;
     border-radius: 4px !important;
@@ -59,6 +59,14 @@
 #topic-title .edit-tags__wrapper .select-kit-header--filter,
 .composer-fields .tags-input .select-kit-header--filter {
     flex-wrap: wrap !important;
+}
+
+#topic-title .edit-tags__wrapper .select-kit.is-expanded .select-kit-filter.is-expanded,
+.composer-fields .tags-input .select-kit.is-expanded .select-kit-filter.is-expanded {
+    background: var(--secondary) !important;
+    border: 1px solid var(--primary-400) !important;
+    border-radius: 4px !important;
+    padding: 2px .5em 0 !important;
 }
 
 #topic-title .edit-tags__wrapper .select-kit-body,
