@@ -6,7 +6,8 @@
     min-height: 1px !important;
     justify-content: flex-start !important;
     margin-left: -1.25em !important;
-    width: calc(100vw - .75em - (var(--d-wrap-padding-x) * 2) - (var(--topic-body-width-padding) * 2)) !important;
+    /* width: calc(100vw - .75em - (var(--d-wrap-padding-x) * 2) - (var(--topic-body-width-padding) * 2)) !important; */
+    width: auto !important;
     max-width: calc(100vw - .75em - (var(--d-wrap-padding-x) * 2) - (var(--topic-body-width-padding) * 2)) !important;
     padding: .5em !important;
     border: none !important;
