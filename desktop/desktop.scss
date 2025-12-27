@@ -1,4 +1,4 @@
-/* HORIZONTAL COMPOSER TAG SELECTOR */
+/* COMPOSER HORIZONTAL TAG SELECTOR */
 
 .composer-fields .tags-input .select-kit-body {
     height: auto !important;
@@ -28,4 +28,11 @@
 }
 .composer-fields .tags-input .select-kit-row {
     padding: .1em .5em !important;
+}
+
+.list-controls .select-kit .select-kit-row.is-highlighted {
+    background-color: var(--secondary) !important;
+    outline: 1px dashed var(--tertiary) !important;
+    outline-offset: -3px !important;
+    border-radius: 4px !important;
 }
