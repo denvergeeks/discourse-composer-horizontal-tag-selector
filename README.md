@@ -14,7 +14,7 @@ https://github.com/denvergeeks/discourse-topic-list-horizontal-tag-selector
 
 ---
 
-The video here below shows the TAG Selector Component in the Composer... the other Components in The Suite provide the same behavior, but for Category selectors and Tag selectors elsewhere in the UI...
+The video here below shows the TAG Selector Component in the Composer... the other Components in The Suite provide the same behavior, but for other Category selectors and Tag selectors elsewhere in the UI...
 
 https://github.com/user-attachments/assets/1625eab0-9472-4eaa-b64e-37103658c64f
 
